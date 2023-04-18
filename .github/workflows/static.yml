@@ -21,8 +21,7 @@ concurrency:
 jobs:
   make-docs:
     name: Upload documentation
-    #runs-on: ubuntu-latest
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
