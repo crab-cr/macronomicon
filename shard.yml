@@ -1,0 +1,9 @@
+name: macronomicon
+version: 0.1.0
+
+authors:
+  - Anon <<>>
+
+crystal: 1.7.3
+
+license: MIT
