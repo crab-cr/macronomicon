@@ -25,6 +25,9 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
+        with:
+            # literally no idea why a public repo needs a PAT...
+            token: ${{ secrets.PERSONAL_ACCESS_TOKEN2 }}
 
       - name: Install Crystal
         uses: oprypin/install-crystal@v1
